@@ -13,6 +13,28 @@
 		9FF0EA821EDFA34A003EE4F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FF0EA801EDFA34A003EE4F6 /* LaunchScreen.storyboard */; };
 		9FF0EA8D1EDFA34A003EE4F6 /* PandaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF0EA8C1EDFA34A003EE4F6 /* PandaTests.m */; };
 		9FF0EA981EDFA34A003EE4F6 /* PandaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF0EA971EDFA34A003EE4F6 /* PandaUITests.m */; };
+		9FF0EAAD1EDFB1EC003EE4F6 /* MAMapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF0EAAC1EDFB1EC003EE4F6 /* MAMapKit.framework */; };
+		9FF0EAAF1EDFB1F0003EE4F6 /* AMapFoundationKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF0EAAE1EDFB1F0003EE4F6 /* AMapFoundationKit.framework */; };
+		9FF0EAB11EDFB1F5003EE4F6 /* AMapSearchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF0EAB01EDFB1F5003EE4F6 /* AMapSearchKit.framework */; };
+		9FF0EAB51EDFB416003EE4F6 /* AMap.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9FF0EAB41EDFB416003EE4F6 /* AMap.bundle */; };
+		9FF0EAB81EDFB43A003EE4F6 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF0EAB71EDFB43A003EE4F6 /* OpenGLES.framework */; };
+		9FF0EABA1EDFB443003EE4F6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF0EAB91EDFB443003EE4F6 /* UIKit.framework */; };
+		9FF0EABC1EDFB44F003EE4F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF0EABB1EDFB44F003EE4F6 /* Foundation.framework */; };
+		9FF0EABE1EDFB458003EE4F6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF0EABD1EDFB458003EE4F6 /* CoreGraphics.framework */; };
+		9FF0EAC01EDFB46D003EE4F6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF0EABF1EDFB46D003EE4F6 /* QuartzCore.framework */; };
+		9FF0EAC21EDFB479003EE4F6 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF0EAC11EDFB479003EE4F6 /* CoreLocation.framework */; };
+		9FF0EAC41EDFB485003EE4F6 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF0EAC31EDFB485003EE4F6 /* CoreTelephony.framework */; };
+		9FF0EAC61EDFB48E003EE4F6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF0EAC51EDFB48E003EE4F6 /* SystemConfiguration.framework */; };
+		9FF0EAC81EDFB496003EE4F6 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF0EAC71EDFB496003EE4F6 /* Security.framework */; };
+		9FF0EACA1EDFB4A0003EE4F6 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF0EAC91EDFB4A0003EE4F6 /* AdSupport.framework */; };
+		9FF0EACC1EDFB4A9003EE4F6 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF0EACB1EDFB4A9003EE4F6 /* JavaScriptCore.framework */; };
+		9FF0EACE1EDFB4BA003EE4F6 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF0EACD1EDFB4BA003EE4F6 /* GLKit.framework */; };
+		9FF0EAD01EDFB4C2003EE4F6 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF0EACF1EDFB4C2003EE4F6 /* libz.tbd */; };
+		9FF0EAD21EDFB4D0003EE4F6 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF0EAD11EDFB4D0003EE4F6 /* libstdc++.6.0.9.tbd */; };
+		9FF0EAD41EDFB4D9003EE4F6 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF0EAD31EDFB4D9003EE4F6 /* libc++.tbd */; };
+		9FF0EAD61EDFB5B5003EE4F6 /* AMapLocationKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF0EAD51EDFB5B5003EE4F6 /* AMapLocationKit.framework */; };
+		9FF0EAD81EDFB62F003EE4F6 /* AMapNaviKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF0EAD71EDFB62F003EE4F6 /* AMapNaviKit.framework */; };
+		9FF0EADA1EDFB66C003EE4F6 /* AMapNavi.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9FF0EAD91EDFB66C003EE4F6 /* AMapNavi.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +68,28 @@
 		9FF0EA931EDFA34A003EE4F6 /* PandaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PandaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FF0EA971EDFA34A003EE4F6 /* PandaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PandaUITests.m; sourceTree = "<group>"; };
 		9FF0EA991EDFA34A003EE4F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FF0EAAC1EDFB1EC003EE4F6 /* MAMapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MAMapKit.framework; sourceTree = "<group>"; };
+		9FF0EAAE1EDFB1F0003EE4F6 /* AMapFoundationKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapFoundationKit.framework; sourceTree = "<group>"; };
+		9FF0EAB01EDFB1F5003EE4F6 /* AMapSearchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapSearchKit.framework; sourceTree = "<group>"; };
+		9FF0EAB41EDFB416003EE4F6 /* AMap.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = AMap.bundle; path = Panda/Frameworks/MAMapKit.framework/AMap.bundle; sourceTree = "<group>"; };
+		9FF0EAB71EDFB43A003EE4F6 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		9FF0EAB91EDFB443003EE4F6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9FF0EABB1EDFB44F003EE4F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9FF0EABD1EDFB458003EE4F6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9FF0EABF1EDFB46D003EE4F6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		9FF0EAC11EDFB479003EE4F6 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		9FF0EAC31EDFB485003EE4F6 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		9FF0EAC51EDFB48E003EE4F6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		9FF0EAC71EDFB496003EE4F6 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		9FF0EAC91EDFB4A0003EE4F6 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		9FF0EACB1EDFB4A9003EE4F6 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		9FF0EACD1EDFB4BA003EE4F6 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		9FF0EACF1EDFB4C2003EE4F6 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		9FF0EAD11EDFB4D0003EE4F6 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		9FF0EAD31EDFB4D9003EE4F6 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		9FF0EAD51EDFB5B5003EE4F6 /* AMapLocationKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapLocationKit.framework; sourceTree = "<group>"; };
+		9FF0EAD71EDFB62F003EE4F6 /* AMapNaviKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapNaviKit.framework; sourceTree = "<group>"; };
+		9FF0EAD91EDFB66C003EE4F6 /* AMapNavi.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = AMapNavi.bundle; path = Panda/Frameworks/AMapNaviKit.framework/AMapNavi.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +97,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FF0EAD41EDFB4D9003EE4F6 /* libc++.tbd in Frameworks */,
+				9FF0EAD21EDFB4D0003EE4F6 /* libstdc++.6.0.9.tbd in Frameworks */,
+				9FF0EAD01EDFB4C2003EE4F6 /* libz.tbd in Frameworks */,
+				9FF0EACE1EDFB4BA003EE4F6 /* GLKit.framework in Frameworks */,
+				9FF0EACC1EDFB4A9003EE4F6 /* JavaScriptCore.framework in Frameworks */,
+				9FF0EACA1EDFB4A0003EE4F6 /* AdSupport.framework in Frameworks */,
+				9FF0EAC81EDFB496003EE4F6 /* Security.framework in Frameworks */,
+				9FF0EAC61EDFB48E003EE4F6 /* SystemConfiguration.framework in Frameworks */,
+				9FF0EAC41EDFB485003EE4F6 /* CoreTelephony.framework in Frameworks */,
+				9FF0EAC21EDFB479003EE4F6 /* CoreLocation.framework in Frameworks */,
+				9FF0EAD81EDFB62F003EE4F6 /* AMapNaviKit.framework in Frameworks */,
+				9FF0EAC01EDFB46D003EE4F6 /* QuartzCore.framework in Frameworks */,
+				9FF0EABE1EDFB458003EE4F6 /* CoreGraphics.framework in Frameworks */,
+				9FF0EABC1EDFB44F003EE4F6 /* Foundation.framework in Frameworks */,
+				9FF0EABA1EDFB443003EE4F6 /* UIKit.framework in Frameworks */,
+				9FF0EAB81EDFB43A003EE4F6 /* OpenGLES.framework in Frameworks */,
+				9FF0EAAD1EDFB1EC003EE4F6 /* MAMapKit.framework in Frameworks */,
+				9FF0EAAF1EDFB1F0003EE4F6 /* AMapFoundationKit.framework in Frameworks */,
+				9FF0EAD61EDFB5B5003EE4F6 /* AMapLocationKit.framework in Frameworks */,
+				9FF0EAB11EDFB1F5003EE4F6 /* AMapSearchKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,10 +140,13 @@
 		9FF0EA6C1EDFA34A003EE4F6 = {
 			isa = PBXGroup;
 			children = (
+				9FF0EAD91EDFB66C003EE4F6 /* AMapNavi.bundle */,
+				9FF0EAB41EDFB416003EE4F6 /* AMap.bundle */,
 				9FF0EA771EDFA34A003EE4F6 /* Panda */,
 				9FF0EA8B1EDFA34A003EE4F6 /* PandaTests */,
 				9FF0EA961EDFA34A003EE4F6 /* PandaUITests */,
 				9FF0EA761EDFA34A003EE4F6 /* Products */,
+				9FF0EAB61EDFB43A003EE4F6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -149,6 +216,11 @@
 		9FF0EAA61EDFA375003EE4F6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9FF0EAD71EDFB62F003EE4F6 /* AMapNaviKit.framework */,
+				9FF0EAD51EDFB5B5003EE4F6 /* AMapLocationKit.framework */,
+				9FF0EAB01EDFB1F5003EE4F6 /* AMapSearchKit.framework */,
+				9FF0EAAE1EDFB1F0003EE4F6 /* AMapFoundationKit.framework */,
+				9FF0EAAC1EDFB1EC003EE4F6 /* MAMapKit.framework */,
 			);
 			path = Frameworks;
 			sourceTree = "<group>";
@@ -186,6 +258,28 @@
 			children = (
 			);
 			path = Vendors;
+			sourceTree = "<group>";
+		};
+		9FF0EAB61EDFB43A003EE4F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9FF0EAD31EDFB4D9003EE4F6 /* libc++.tbd */,
+				9FF0EAD11EDFB4D0003EE4F6 /* libstdc++.6.0.9.tbd */,
+				9FF0EACF1EDFB4C2003EE4F6 /* libz.tbd */,
+				9FF0EACD1EDFB4BA003EE4F6 /* GLKit.framework */,
+				9FF0EACB1EDFB4A9003EE4F6 /* JavaScriptCore.framework */,
+				9FF0EAC91EDFB4A0003EE4F6 /* AdSupport.framework */,
+				9FF0EAC71EDFB496003EE4F6 /* Security.framework */,
+				9FF0EAC51EDFB48E003EE4F6 /* SystemConfiguration.framework */,
+				9FF0EAC31EDFB485003EE4F6 /* CoreTelephony.framework */,
+				9FF0EAC11EDFB479003EE4F6 /* CoreLocation.framework */,
+				9FF0EABF1EDFB46D003EE4F6 /* QuartzCore.framework */,
+				9FF0EABD1EDFB458003EE4F6 /* CoreGraphics.framework */,
+				9FF0EABB1EDFB44F003EE4F6 /* Foundation.framework */,
+				9FF0EAB91EDFB443003EE4F6 /* UIKit.framework */,
+				9FF0EAB71EDFB43A003EE4F6 /* OpenGLES.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,6 +349,7 @@
 				TargetAttributes = {
 					9FF0EA741EDFA34A003EE4F6 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = V2PRMX9B5Z;
 						ProvisioningStyle = Automatic;
 					};
 					9FF0EA871EDFA34A003EE4F6 = {
@@ -294,6 +389,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FF0EADA1EDFB66C003EE4F6 /* AMapNavi.bundle in Resources */,
+				9FF0EAB51EDFB416003EE4F6 /* AMap.bundle in Resources */,
 				9FF0EA7F1EDFA34A003EE4F6 /* Assets.xcassets in Resources */,
 				9FF0EA821EDFA34A003EE4F6 /* LaunchScreen.storyboard in Resources */,
 			);
@@ -462,7 +559,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V2PRMX9B5Z;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Panda/Frameworks",
+				);
 				INFOPLIST_FILE = Panda/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.wait-foryou.Panda";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -473,7 +576,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V2PRMX9B5Z;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Panda/Frameworks",
+				);
 				INFOPLIST_FILE = Panda/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.wait-foryou.Panda";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -545,6 +654,7 @@
 				9FF0EA9E1EDFA34A003EE4F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9FF0EA9F1EDFA34A003EE4F6 /* Build configuration list for PBXNativeTarget "PandaTests" */ = {
 			isa = XCConfigurationList;
@@ -553,6 +663,7 @@
 				9FF0EAA11EDFA34A003EE4F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9FF0EAA21EDFA34A003EE4F6 /* Build configuration list for PBXNativeTarget "PandaUITests" */ = {
 			isa = XCConfigurationList;
@@ -561,6 +672,7 @@
 				9FF0EAA41EDFA34A003EE4F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

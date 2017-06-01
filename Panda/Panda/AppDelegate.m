@@ -14,6 +14,12 @@
 
 @implementation AppDelegate
 
+// 高德 Appkey af3eaf58a2da9b2a96e79bb0df9dcf6f
+/*
+    AMapSearch
+    AMapNavi
+    AMapLocation
+ */
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
