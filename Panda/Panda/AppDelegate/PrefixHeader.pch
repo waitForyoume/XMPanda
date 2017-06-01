@@ -1,0 +1,29 @@
+//
+//  PrefixHeader.pch
+//  Panda
+//
+//  Created by 街路口等你 on 17/6/1.
+//  Copyright © 2017年 街路口等你. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import <AMapFoundationKit/AMapFoundationKit.h>
+#import <MAMapKit/MAMapKit.h>
+#import <AMapLocationKit/AMapLocationKit.h>
+#import <CoreLocation/CoreLocation.h>
+#import <AMapSearchKit/AMapSearchKit.h>
+
+#import "AMapLocationController.h"
+#import "AMapSearchController.h"
+
+#import "AFNetworking.h"
+#import "HttpManager.h"
+
+
+// MARK: - 网址 1e4dfb2107e80 ?key=1e4dfb2107e80&city=%@&province=%@
+#define kWeather_URL @"http://apicloud.mob.com/v1/weather/query"
+#define k @"http://apicloud.mob.com/appstore/history/query?key=1e4dfb2107e80&day=%@"
+
+#endif /* PrefixHeader_pch */

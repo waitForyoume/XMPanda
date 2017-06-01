@@ -26,9 +26,25 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+
+    [self xl_RootViewController];
+    [self xl_AMap];
+    
     return YES;
 }
 
+- (void)xl_AMap {
+    [AMapServices sharedServices].apiKey = @"af3eaf58a2da9b2a96e79bb0df9dcf6f";
+}
+
+- (void)xl_RootViewController {
+//    AMapLocationController *locationMap = [[AMapLocationController alloc] init];
+    
+    AMapSearchController *locationMap = [[AMapSearchController alloc] init];
+    
+    UINavigationController *controller = [[UINavigationController alloc] initWithRootViewController:locationMap];
+    self.window.rootViewController = controller;
+}
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
