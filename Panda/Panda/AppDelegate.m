@@ -38,12 +38,18 @@
 }
 
 - (void)xl_RootViewController {
+    
 //    AMapLocationController *locationMap = [[AMapLocationController alloc] init];
     
     AMapSearchController *locationMap = [[AMapSearchController alloc] init];
     
     UINavigationController *controller = [[UINavigationController alloc] initWithRootViewController:locationMap];
     self.window.rootViewController = controller;
+    
+    [UINavigationBar appearance].tintColor = [UIColor whiteColor];
+    [UINavigationBar appearance].barTintColor = [UIColor colorWithRed:40 / 255.0f green:158 / 255.0f blue:252 / 255.0f alpha:1];
+    [UINavigationBar appearance].titleTextAttributes = [NSDictionary dictionaryWithObjectsAndKeys:[UIColor whiteColor], NSForegroundColorAttributeName, nil];
+    
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

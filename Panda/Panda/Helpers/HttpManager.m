@@ -10,11 +10,11 @@
 
 @implementation HttpManager
 
-- (void)requestMethod:(NSString *)method url:(NSString *)url params:(NSDictionary *)parasms success:(void (^)(id))success failure:(void (^)(NSError *))failure {
++ (void)requestMethod:(NSString *)method url:(NSString *)url params:(NSDictionary *)parasms success:(void (^)(id))success failure:(void (^)(NSError *))failure {
     
 }
 
-- (void)xl_GET:(NSString *)url params:(NSDictionary *)params success:(void (^)(id))success failure:(void (^)(NSError *))failure {
++ (void)xl_GET:(NSString *)url params:(NSDictionary *)params success:(void (^)(id))success failure:(void (^)(NSError *))failure {
     
     AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
     [manager GET:url parameters:params progress:^(NSProgress * _Nonnull downloadProgress) {

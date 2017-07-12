@@ -17,13 +17,18 @@
 
 #import "AMapLocationController.h"
 #import "AMapSearchController.h"
+#import "CurrentLocationViewController.h"
 
 #import "AFNetworking.h"
 #import "HttpManager.h"
-
+#import "NSString+Add.h"
+#import "UIView+XMAdd.h"
 
 // MARK: - 网址 1e4dfb2107e80 ?key=1e4dfb2107e80&city=%@&province=%@
 #define kWeather_URL @"http://apicloud.mob.com/v1/weather/query"
-#define k @"http://apicloud.mob.com/appstore/history/query?key=1e4dfb2107e80&day=%@"
+#define kSET_COLOR_RBG(r, g, b, a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)]
+
+#define kXM_Width [UIScreen mainScreen].bounds.size.width
+#define kXM_Height [UIScreen mainScreen].bounds.size.height
 
 #endif /* PrefixHeader_pch */
